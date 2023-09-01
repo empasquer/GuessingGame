@@ -43,10 +43,11 @@ public class GuessingGame {
                     System.out.println("Do you want to play again? Type 'yes' to play again and 'no' to end the game.");
 
                     String playAgainChoice = keyboard.next();
-
+/*
                     if (playAgainChoice.equalsIgnoreCase("yes")) {
                         runTheGame = true;
-                    } else if (playAgainChoice.equalsIgnoreCase("no")) {
+                    } else */
+                    if (playAgainChoice.equalsIgnoreCase("no")) {
                         runTheGame = false;
                         System.out.println("Thanks for playing!");
                     }
