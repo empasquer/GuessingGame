@@ -30,11 +30,9 @@ public class GuessingGame {
 
                     if (playAgainChoice.equalsIgnoreCase("yes")) {
                         runTheGame = true;
-                        break;
                     } else if (playAgainChoice.equalsIgnoreCase("no")) {
                         runTheGame = false;
                         System.out.println("Thanks for playing!");
-                        break;
                     }
                 }
 
